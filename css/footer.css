@@ -1,0 +1,19 @@
+.footer__container {
+  padding: 0;
+}
+
+.footer__disclamer {
+  margin: 0;
+  padding: 40px 20px 60px 20px;
+  font-family: "Golos Text";
+  font-size: 16px;
+  line-height: 120%;
+  opacity: 60%;
+  background-color: #e9ded4;
+}
+
+@media (min-width: 1366px) {
+  .footer__disclamer {
+    padding: 40px 72px 72px 72px;
+  }
+}

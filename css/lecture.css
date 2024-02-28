@@ -1,0 +1,199 @@
+.lecture__container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.lecture__content-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.lecture__content-heading {
+  width: 60%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Merriweather";
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 135%;
+  color: #313131;
+  text-transform: uppercase;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.lecture__heading-extra {
+  color: #f54932;
+}
+
+.lecture__heading-two {
+  display: none;
+}
+
+.lecture__content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lecture__content-bottom-heading {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: "Merriweather";
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 135%;
+  color: #313131;
+  text-transform: uppercase;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.lecture__table {
+  margin-bottom: 48px;
+}
+
+.lecture__table-name {
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  border-right: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  font-family: "Golos Text";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  color: #313131;
+  opacity: .7;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.lecture__table-content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  border-bottom: 1px solid #d0d0d0;
+  font-family: "Golos Text";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 120%;
+  color: #313131;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.payment {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.place {
+  padding-top: 0;
+}
+
+.lecture__content-bottom-link {
+  font-family: "Golos Text";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  color: #3057a2;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.lecture__content-table {
+  width: 54%;
+}
+
+.lecture__price-extra {
+  text-decoration: line-through;
+
+  text-decoration-color: #f54932;
+}
+
+@media (max-width: 1024px) {
+  .lecture__content-top {
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+
+  .lecture__content-heading {
+    width: 100%;
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+
+  .lecture__heading-two {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-family: "Merriweather";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 135%;
+    color: #313131;
+    text-transform: uppercase;
+  }
+
+  .lecture__heading-part-two {
+    display: none;
+  }
+
+  .lecture__content-bottom {
+    flex-direction: column;
+  }
+
+  .lecture__content-bottom-heading {
+    margin-bottom: 44px;
+    font-size: 28px;
+  }
+
+  .lecture__content-table {
+    width: 100%;
+  }
+
+  .lecture__table-wrapper-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lecture__table-name {
+    padding-right: 0;
+    padding-bottom: 12px;
+    border: none;
+  }
+
+  .lecture__table-content {
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .lecture__table {
+    margin-bottom: 40px;
+  }
+
+  .lecture__content-bottom-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 720px) {
+  .lecture__container {
+    padding-top: 49px;
+    padding-bottom: 80px;
+  }
+
+  .lecture__content-top {
+    margin-bottom: 48px;
+  }
+}
